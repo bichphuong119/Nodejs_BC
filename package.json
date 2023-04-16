@@ -1,0 +1,35 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "watch": "node-sass --watch src/resource/scss/ --output src/public/css/z",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NguyexenLong",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sSyRuSs/test-Nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "test"
+  ],
+  "bugs": {
+    "url": "https://github.com/sSyRuSs/test-Nodejs/issues"
+  },
+  "homepage": "https://github.com/sSyRuSs/test-Nodejs#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "morgan": "^1.10.0",
+    "node-sass": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
